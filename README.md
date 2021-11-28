@@ -8,7 +8,7 @@ Our approach was built to convert alphanumerical data to *in silico* DNA sequenc
 ### Data example:
 Note: `git-lfs` is required for downloading with the `clone`. [Install](https://github.com/git-lfs/git-lfs/wiki/Installation#debian-and-ubuntu)
 
-Or you can download it directly `zip`: [Here](https://drive.google.com/file/d/1xI1KBswT5ttiTzD-MezOWgHlYNVULaQ2/view?usp=sharing)
+Or you can download it directly `zip`: [Here](https://drive.google.com/file/d/1jXIAu4Wtx7HzgabNelu4xON1zKp5wmmR/view?usp=sharing)
 ```
 git clone https://github.com/jdeney/tucuxi_blast.git
 cd tucuxi_blast/

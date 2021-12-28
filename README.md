@@ -81,6 +81,12 @@ Tucuxi-Index is a module for index creation. For comparisons of multiple databas
 ./tucuxi_index -h
 ```
 
+### Data availability:
+The simulated datasets containing 300M (subject) and 200M (query) are publicly available [Here](https://drive.google.com/drive/folders/1CiNnt3mNBLFxLB56KhNj1SqdaFa5LTSK?usp=sharing). 
+
+Note: The `SINAN databases` are under ethical policies and should not be available.
+
+
 Tools in use:
 -------------
 1. Tucuxi-BLAST: BLASTn [v. 2.10.0+]. Altschul SF, Gish W, Miller W, Myers EW, Lipman DJ. Basic local alignment search tool. J Mol Biol. 1990 Oct 5;215(3):403-10. doi: 10.1016/S0022-2836(05)80360-2. PMID: 2231712. Blast+/NCBI algorithm [GPL License](https://www.gnu.org/licenses/gpl-3.0.en.html). For more information [see Blast+/NCBI](https://blast.ncbi.nlm.nih.gov/) 

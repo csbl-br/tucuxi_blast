@@ -25,7 +25,7 @@ Note: The `testLink2k.tsv` dataset contains 15% of errors attributed to referenc
 
 >** -dr -> Database Reference
 
->The results of the record linkage can be checked manually using Tucuxi-Tail tools, available at:: http://tucuxitail.herokuapp.com/
+>The results of the record linkage can be checked manually using Tucuxi-Tail tools, available at:: https://tucuxi-tail.csbiology.org/
 
   * It is important to note that before running Tucuxi-BLAST, the data must be in UPPERCASE and special characters such as #$%&*' removed from your data. Use the Tucuxi-CleanData package:
 ```

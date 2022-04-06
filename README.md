@@ -2,7 +2,7 @@
 
 Tucuxi-BLAST is a Python-based module for free Record Linkage. 
 
-Our approach was built to convert alphanumerical data to *in silico* DNA sequences, that in turn, can be used as an input to many bioinformatics tools.
+Our approach was built to convert alphanumerical data to *in silico* `DNA sequences`, that in turn, can be used as an input to many bioinformatics tools.
 
 
 ### Data example:
@@ -15,19 +15,25 @@ cd tucuxi_blast/
 ```
 Data source: `/data/`
 
-Tucuxi-BLAST run example:
+Basic Tucuxi-BLAST run example
+---------------------
 ```
 ./tucuxi_blast -dl data/testLink_2k.tsv -dr data/testRef_10k.tsv
 ```
+
+Required data
+---------------------
 Note: The `testLink2k.tsv` dataset contains 15% of errors attributed to reference to `testRef_10k.tsv` and 50% of the records do not contain pairs in the reference file.
 
->** -dl -> Database Linkage
+>** -dl -> Database Linkage: `Contains the data you want to record linkage.`
 
->** -dr -> Database Reference
+>** -dr -> Database Reference: `Contains the data that will serve as a reference to find the Record Linkage.`
 
->The results of the record linkage can be checked manually using Tucuxi-Tail tools, available at:: https://tucuxi-tail.csbiology.org/
+`For more information, visit our Tucuxi-BLAST file template`: [Here](https://github.com/csbl-br/tucuxi_blast/blob/main/data/testLink_2k.tsv)
 
-  * It is important to note that before running Tucuxi-BLAST, the data must be in UPPERCASE and special characters such as #$%&*' removed from your data. Use the Tucuxi-CleanData package:
+>The results of the record linkage can be checked manually using `Tucuxi-Tail tools`, available at: https://tucuxi-tail.csbiology.org/
+
+  * It is important to note that before running Tucuxi-BLAST, the data must be in UPPERCASE and special characters such as `#$%&*'` removed from your data. Use the `Tucuxi-CleanData package`:
 ```
 ./tucuxi_cleanData -d your-data
 ```
@@ -85,6 +91,14 @@ Tucuxi-Index is a module for index creation. For comparisons of multiple databas
 The simulated datasets containing 300M (subject) and 200M (query) are publicly available [Here](https://drive.google.com/drive/folders/1CiNnt3mNBLFxLB56KhNj1SqdaFa5LTSK?usp=sharing). 
 
 Note: The `SINAN databases` are under ethical policies and should not be available.
+
+
+Need help?
+----------
+
+Stuck on your record linkage code or problem? Any other questions? 
+
+Don't hesitate to send us an e-mail (helder.nakaya@einstein.br).
 
 
 Tools in use:

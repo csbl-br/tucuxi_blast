@@ -25,7 +25,7 @@ Required data
 ---------------------
 Note: The `testLink2k.tsv` dataset contains 15% of errors attributed to reference to `testRef_10k.tsv` and 50% of the records do not contain pairs in the reference file.
 
->** -dl -> Database Linkage: `Contains the data you want to record linkage.`
+>** -dl -> Database Linkage: `Contains the data you want to Record Linkage.`
 
 >** -dr -> Database Reference: `Contains the data that will serve as a reference to find the Record Linkage.`
 
@@ -38,7 +38,7 @@ Note: The `testLink2k.tsv` dataset contains 15% of errors attributed to referenc
 ./tucuxi_cleanData -d your-data
 ```
 
-The results of the analysis are available in the repository: tucuxi_blast/directoryFileInput.
+The results of the analysis are available in the repository: `tucuxi_blast/directoryFileInput`.
 
 * For more options:
 ```

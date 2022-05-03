@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="/data/logo_tucuxi.png"><br>
+</div>
+
 # Tucuxi-BLAST [v.0.0.5]
 
 Tucuxi-BLAST is a Python-based module for free Record Linkage. 
@@ -38,6 +42,8 @@ Note: The `testLink2k.tsv` dataset contains 15% of errors attributed to referenc
 ./tucuxi_cleanData -d your-data
 ```
 
+Results
+---------------------
 The results of the analysis are available in the repository: `tucuxi_blast/directoryFileInput`.
 
 * For more options:

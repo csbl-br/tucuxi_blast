@@ -44,7 +44,7 @@ Note: The `testLink2k.tsv` dataset contains 15% of errors attributed to referenc
 
 Results
 ---------------------
-The results of the analysis are available in the repository: `tucuxi_blast/directoryFileInput`.
+The results of the analysis are available in the repository: `data/tucuxi_blast/directoryFileInput`.
 
 * For more options:
 ```
